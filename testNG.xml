@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Test!">
-    <test name = "mathtest">
+    <test name = "SimpleTest">
         <classes>
-            <!--                <class name = "TestOther" />-->
+            <!--                <class name = "TestArray" />-->
             <class name="TestString" />
 
         </classes>

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6060e91f-bb43-4591-a4d8-34e86f1d3ad3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,12 +54,36 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TestString.testSplitMethod">
-    <configuration name="TestString.testIndexSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestArray.addElementToArray">
+    <configuration name="TestArray.addElementToArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TeatForStringAndArray" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestString" />
-      <option name="METHOD_NAME" value="testIndexSearch" />
+      <option name="MAIN_CLASS_NAME" value="TestArray" />
+      <option name="METHOD_NAME" value="addElementToArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArray.testIntArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeatForStringAndArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArray" />
+      <option name="METHOD_NAME" value="testIntArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArray.testStringArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TeatForStringAndArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArray" />
+      <option name="METHOD_NAME" value="testStringArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -71,30 +96,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestString" />
       <option name="METHOD_NAME" value="testLowerAndUpperCase" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestString.testReplace" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestString" />
-      <option name="METHOD_NAME" value="testReplace" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestString.testSplitMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestString" />
-      <option name="METHOD_NAME" value="testSplitMethod" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestString.testSplitMethod" />
-        <item itemvalue="TestNG.TestString.testLowerAndUpperCase" />
+        <item itemvalue="TestNG.TestArray.addElementToArray" />
+        <item itemvalue="TestNG.TestArray.testIntArray" />
+        <item itemvalue="TestNG.TestArray.testStringArray" />
         <item itemvalue="TestNG.TestString.testSubstring" />
-        <item itemvalue="TestNG.TestString.testReplace" />
-        <item itemvalue="TestNG.TestString.testIndexSearch" />
+        <item itemvalue="TestNG.TestString.testLowerAndUpperCase" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +141,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="aaa" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
