@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6060e91f-bb43-4591-a4d8-34e86f1d3ad3" name="Changes" comment="">
+    <list default="true" id="6060e91f-bb43-4591-a4d8-34e86f1d3ad3" name="Changes" comment="working with strings and arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +54,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TestArray.addElementToArray">
-    <configuration name="TestArray.addElementToArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
+  <component name="RunManager" selected="TestNG.TestArray.sortArray">
+    <configuration name="TestArray.cloneArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestStringsMethod" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestArray" />
-      <option name="METHOD_NAME" value="addElementToArray" />
+      <option name="METHOD_NAME" value="cloneArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -65,11 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArray.testIntArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
+    <configuration name="TestArray.reverseArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestStringsMethod" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestArray" />
-      <option name="METHOD_NAME" value="testIntArray" />
+      <option name="METHOD_NAME" value="reverseArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -77,11 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArray.testStringArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
+    <configuration name="TestArray.reverseArray2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestStringsMethod" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestArray" />
-      <option name="METHOD_NAME" value="testStringArray" />
+      <option name="METHOD_NAME" value="reverseArray2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString.testLowerAndUpperCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
+    <configuration name="TestArray.reverseOutput" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestStringsMethod" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestString" />
-      <option name="METHOD_NAME" value="testLowerAndUpperCase" />
+      <option name="MAIN_CLASS_NAME" value="TestArray" />
+      <option name="METHOD_NAME" value="reverseOutput" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,11 +103,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestString.testSubstring" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TeatForStringAndArray" />
+    <configuration name="TestArray.sortArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestStringsMethod" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestString" />
-      <option name="METHOD_NAME" value="testSubstring" />
+      <option name="MAIN_CLASS_NAME" value="TestArray" />
+      <option name="METHOD_NAME" value="sortArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestArray.addElementToArray" />
-        <item itemvalue="TestNG.TestArray.testIntArray" />
-        <item itemvalue="TestNG.TestArray.testStringArray" />
-        <item itemvalue="TestNG.TestString.testSubstring" />
-        <item itemvalue="TestNG.TestString.testLowerAndUpperCase" />
+        <item itemvalue="TestNG.TestArray.sortArray" />
+        <item itemvalue="TestNG.TestArray.cloneArray" />
+        <item itemvalue="TestNG.TestArray.reverseArray2" />
+        <item itemvalue="TestNG.TestArray.reverseArray" />
+        <item itemvalue="TestNG.TestArray.reverseOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658218667525</updated>
     </task>
+    <task id="LOCAL-00001" summary="working with strings and arrays">
+      <created>1658433324596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658433324596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working with strings and arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with strings and arrays" />
   </component>
 </project>
